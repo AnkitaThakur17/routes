@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import styles from "../../CSS/products.module.css"; // module import
+import styles from "../../CSS/products.module.css";
 
 function Products() {
   return (
@@ -9,7 +9,7 @@ function Products() {
         <NavLink
           to="electronics"
           className={({ isActive }) => 
-            isActive ? styles.activeLink : styles.inactiveLink
+            isActive ? styles.active : styles.inactive
           }
         >
           Electronics
@@ -18,7 +18,7 @@ function Products() {
         <NavLink 
           to="clothing"
           className={({ isActive }) => 
-            isActive ? styles.activeLink : styles.inactiveLink
+            isActive ? styles.active : styles.inactive
           }
         >
           Clothing
@@ -27,7 +27,7 @@ function Products() {
         <NavLink 
           to="accessories"
           className={({ isActive }) => 
-            isActive ? styles.activeLink : styles.inactiveLink
+            isActive ? styles.active : styles.inactive
           }
         >
           Accessories

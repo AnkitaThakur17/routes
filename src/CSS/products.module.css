@@ -64,14 +64,14 @@
   margin: 20px 0;
 }
 
-.inactive-link {
+.inactive {
   color: gray;
   text-decoration: none;
   font-weight: normal;
   padding: 5px;
 }
 
-.active-link {
+.active {
   color: navy;
   font-weight: bold;
   text-decoration: underline;
