@@ -74,5 +74,6 @@
 .active {
   color: navy;
   font-weight: bold;
+  font-size:large;
   text-decoration: underline;
 }

@@ -24,6 +24,7 @@ function App() {
         {/* Nested Products routes */}
         <Route path="/products" element={<Products />}>
           <Route path="electronics" element={<Electronics />} />
+          <Route path="electronics/:id" element={<ProductDetails />} /> 
           <Route path="clothing" element={<Clothing />} />
           <Route path="accessories" element={<Accessories />} />
           <Route path=":id" element={<ProductDetails />} />
